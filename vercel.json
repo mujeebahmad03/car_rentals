@@ -5,23 +5,23 @@
       "dest": "/"
     },
     {
-      "src": "about",
+      "src": "/about",
       "dest": "/"
     },
     {
-      "src": "contact",
+      "src": "/contact",
       "dest": "/"
     },
     {
-      "src": "models",
+      "src": "/models",
       "dest": "/"
     },
     {
-      "src": "teams",
+      "src": "/teams",
       "dest": "/"
     },
     {
-      "src": "testimonials",
+      "src": "/testimonials",
       "dest": "/"
     }
   ]
