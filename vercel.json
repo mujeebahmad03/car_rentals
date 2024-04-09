@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "about",
+      "dest": "/"
+    },
+    {
+      "src": "contact",
+      "dest": "/"
+    },
+    {
+      "src": "models",
+      "dest": "/"
+    },
+    {
+      "src": "teams",
+      "dest": "/"
+    },
+    {
+      "src": "testimonials",
+      "dest": "/"
+    }
+  ]
+}
