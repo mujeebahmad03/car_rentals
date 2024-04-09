@@ -19,6 +19,7 @@ function PickCar() {
       <section className="pick-section">
         <div className="container">
           <div className="pick-container">
+          
             <div className="pick-container__title">
               <h3>Vehicle Models</h3>
               <h2>Our rental fleet</h2>
@@ -29,6 +30,12 @@ function PickCar() {
             </div>
             <div className="pick-container__car-content">
               {/* pick car */}
+              {active === "FirstCar" && <CarBox data={CAR_DATA} carID={0} />}
+              {active === "SecondCar" && <CarBox data={CAR_DATA} carID={1} />}
+              {active === "ThirdCar" && <CarBox data={CAR_DATA} carID={2} />}
+              {active === "FourthCar" && <CarBox data={CAR_DATA} carID={3} />}
+              {active === "FifthCar" && <CarBox data={CAR_DATA} carID={4} />}
+              {active === "SixthCar" && <CarBox data={CAR_DATA} carID={5} />}
               <div className="pick-box">
                 <button
                   className={`${coloringButton("btn1")}`}
@@ -90,13 +97,6 @@ function PickCar() {
                   VW Passat CC
                 </button>
               </div>
-
-              {active === "FirstCar" && <CarBox data={CAR_DATA} carID={0} />}
-              {active === "SecondCar" && <CarBox data={CAR_DATA} carID={1} />}
-              {active === "ThirdCar" && <CarBox data={CAR_DATA} carID={2} />}
-              {active === "FourthCar" && <CarBox data={CAR_DATA} carID={3} />}
-              {active === "FifthCar" && <CarBox data={CAR_DATA} carID={4} />}
-              {active === "SixthCar" && <CarBox data={CAR_DATA} carID={5} />}
             </div>
           </div>
         </div>
